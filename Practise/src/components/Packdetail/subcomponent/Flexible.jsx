@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-const Flexible = () => {
-  return (
-    <div>
+// const Flexible = () => {
+//   return (
+//     <div>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default Flexible
+// export default Flexible
