@@ -1,0 +1,1172 @@
+@font-face {
+  font-family: "Inria Serif";
+  src: url("../webfonts/InriaSerif-Bold.eot");
+  src: url("../webfonts/InriaSerif-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InriaSerif-Bold.woff") format("woff"),
+    url("../webfonts/InriaSerif-Bold.ttf") format("truetype"),
+    url("../webfonts/InriaSerif-Bold.svg#InriaSerif-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inria Serif";
+  src: url("../webfonts/InriaSerif-Light.eot");
+  src: url("../webfonts/InriaSerif-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/InriaSerif-Light.woff") format("woff"),
+    url("../webfonts/InriaSerif-Light.ttf") format("truetype"),
+    url("../webfonts/InriaSerif-Light.svg#InriaSerif-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inria Serif";
+  src: url("../webfonts/InriaSerif-Italic.eot");
+  src: url("../webfonts/InriaSerif-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/InriaSerif-Italic.woff") format("woff"),
+    url("../webfonts/InriaSerif-Italic.ttf") format("truetype"),
+    url("../webfonts/InriaSerif-Italic.svg#InriaSerif-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inria Serif";
+  src: url("../webfonts/InriaSerif-Regular.eot");
+  src: url("../webfonts/InriaSerif-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/InriaSerif-Regular.woff") format("woff"),
+    url("../webfonts/InriaSerif-Regular.ttf") format("truetype"),
+    url("../webfonts/InriaSerif-Regular.svg#InriaSerif-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ramadhan Mubarok";
+  src: url("../webfonts/RamadhanMubarok-Regular.eot");
+  src: url("../webfonts/RamadhanMubarok-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/RamadhanMubarok-Regular.woff") format("woff"),
+    url("../webfonts/RamadhanMubarok-Regular.ttf") format("truetype"),
+    url("../webfonts/RamadhanMubarok-Regular.svg#RamadhanMubarok-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/nterTight-Black.eot");
+  src: url("../webfonts/InterTight-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/InterTight-Black.woff") format("woff"),
+    url("../webfonts/InterTight-Black.ttf") format("truetype"),
+    url("../webfonts/InterTight-Black.svg#InterTight-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/InterTight-Light.eot");
+  src: url("../webfonts/InterTight-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/InterTight-Light.woff") format("woff"),
+    url("../webfonts/InterTight-Light.ttf") format("truetype"),
+    url("../webfonts/InterTight-Light.svg#InterTight-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/InterTight-Regular.eot");
+  src: url("../webfonts/InterTight-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/InterTight-Regular.woff") format("woff"),
+    url("../webfonts/InterTight-Regular.ttf") format("truetype"),
+    url("../webfonts/InterTight-Regular.svg#InterTight-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/InterTight-Bold.eot");
+  src: url("../webfonts/InterTight-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InterTight-Bold.woff") format("woff"),
+    url("../webfonts/InterTight-Bold.ttf") format("truetype"),
+    url("../webfonts/InterTight-Bold.svg#InterTight-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("I../webfonts/nterTight-Medium.eot");
+  src: url("../webfonts/InterTight-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/InterTight-Medium.woff") format("woff"),
+    url("../webfonts/InterTight-Medium.ttf") format("truetype"),
+    url("../webfonts/InterTight-Medium.svg#InterTight-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/InterTight-Thin.eot");
+  src: url("../webfonts/InterTight-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InterTight-Thin.woff") format("woff"),
+    url("../webfonts/InterTight-Thin.ttf") format("truetype"),
+    url("../webfonts/InterTight-Thin.svg#InterTight-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../webfonts/Raleway-Medium.eot");
+  src: url("../webfonts/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Raleway-Medium.woff") format("woff"),
+    url("../webfonts/Raleway-Medium.ttf") format("truetype"),
+    url("../webfonts/Raleway-Medium.svg#Raleway-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../webfonts/Raleway-Light.eot");
+  src: url("../webfonts/Raleway-Light.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Raleway-Light.woff") format("woff"),
+    url("../webfonts/Raleway-Light.ttf") format("truetype"),
+    url("../webfonts/Raleway-Light.svg#Raleway-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../webfonts/Raleway-Regular.eot");
+  src: url("../webfonts/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Raleway-Regular.woff") format("woff"),
+    url("../webfonts/Raleway-Regular.ttf") format("truetype"),
+    url("../webfonts/Raleway-Regular.svg#Raleway-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../webfonts/Raleway-Black.eot");
+  src: url("../webfonts/Raleway-Black.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Raleway-Black.woff") format("woff"),
+    url("../webfonts/Raleway-Black.ttf") format("truetype"),
+    url("../webfonts/Raleway-Black.svg#Raleway-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../webfonts/Raleway-Thin.eot");
+  src: url("../webfonts/Raleway-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Raleway-Thin.woff") format("woff"),
+    url("../webfonts/Raleway-Thin.ttf") format("truetype"),
+    url("../webfonts/Raleway-Thin.svg#Raleway-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../webfonts/Raleway-Bold.eot");
+  src: url("../webfonts/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Raleway-Bold.woff") format("woff"),
+    url("../webfonts/Raleway-Bold.ttf") format("truetype"),
+    url("../webfonts/Raleway-Bold.svg#Raleway-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background: #ffffff;
+  color: #000;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+.auth-body {
+  padding-top: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+a,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn,
+button,
+select,
+textarea,
+.owl-prev,
+.owl-next,
+.nav-menu,
+li,
+img {
+  transition: all 0.3s;
+}
+
+a,
+button,
+input,
+textarea {
+  outline: none !important;
+}
+
+a {
+  color: #068fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #0d75cb;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: unset;
+}
+/* / / Chrome, Safari, Edge, Opera / / */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* / / Firefox / / */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Lexend";
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 28px;
+  color: #000;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000;
+}
+
+h4,
+h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #939393;
+  font-family: "Lato";
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #eff2f5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  overflow: hidden;
+  background: #ffffff;
+  color: #000;
+  border-image: initial;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid #012169;
+}
+
+::placeholder {
+  color: #939393;
+}
+
+img {
+  max-width: 100%;
+}
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  font-family: "Lato";
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+  transition: all 300ms;
+}
+.btn:hover {
+  color: #068fff;
+  border-color: #068fff;
+}
+
+.primary-btn {
+  background: #068fff;
+  color: #fff;
+  border-color: #068fff;
+}
+
+.primary-btn:hover {
+  color: #fff;
+  background: #0d75cb;
+  border-color: #0d75cb;
+  box-shadow: 0 4px 12px rgb(24 59 137 / 25%);
+}
+.simple-btn {
+  background: #ffffff;
+  color: #000;
+  border-color: #ffffff;
+}
+
+.simple-btn:hover {
+  background: #ffffff;
+  color: #068fff;
+  border-color: #ffffff;
+}
+.card {
+  border: 1px solid #ffff;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 12%);
+  transition: all 300ms;
+  /* padding: 15px; */
+  border-radius: 15px;
+}
+
+/* ============================================///============================================= */
+
+.hdr-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btns ul {
+  display: flex;
+  gap: 50px;
+}
+.hdrbtnh a {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+  padding: 32px 32px;
+}
+.hdrbtnh a:hover {
+  background: #d4af370d;
+}
+.hdrbtnh {
+  position: relative;
+}
+.hdrbtnh a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #d4af37;
+  width: 117px;
+  height: 4px;
+  top: 48px;
+  left: 0px;
+  border-radius: 4px 4px 0px 0px;
+}
+.btnh a:hover::after{
+  content: "";
+  position: absolute;
+  background-color: #d4af37;
+  width: 148px;
+  height: 4px;
+  top: 48px;
+  left: 0px;
+  border-radius: 4px 4px 0px 0px;
+}
+.hdr-main {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  padding: 20px 0px;
+  background-color: #1A1A1A;
+}
+section.banner-section::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    178.65deg,
+    #1a1a1a 4.26%,
+    rgba(26, 26, 26, 0) 112.88%
+  );
+  inset: 0;
+}
+.main-banner {
+  position: relative;
+}
+.hdr-icon {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-main {
+  /* display: none;Hidden by default */
+  position: absolute; /* Position it absolutely within the relatively positioned parent */
+  top: 80px; /* Position it right below the parent */
+  right: 130px; /* Align to the left of the parent */
+  z-index: 1000; /* Ensure it appears above other content */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add some shadow */
+  display: none;
+  border-radius: 16px 16px 16px 16px;
+}
+
+.hdr-icon:hover .dropdown-main {
+  display: block; /* Show the dropdown on hover */
+  cursor: pointer;
+}
+.wedmango-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px 15px 20px;
+}
+.dropdown-mango {
+  width: 130%;
+}
+.wedmango h1 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+/* =======================================pack=========================================== */
+
+.card-flax:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: 0px 4px 8px #5edcdc;
+  border-radius: 15px;
+  /* transition: 0.3s; */
+}
+
+.card-flax {
+  transition: transform 0.2s;
+}
+.pack-section {
+  padding: 30px 0px;
+  
+}
+.pack-top h1 {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #d4af37;
+}
+.pack-top p {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000000;
+}
+.student-days {
+  display: flex;
+  gap: 10px;
+  background-color: #d4af371f;
+  width: 140px;
+  height: 25px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.student-name h1 {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28.8px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 312px;
+  padding-top: 5px;
+}
+.ux-main {
+  padding: 30px 0px 10px 0px;
+}
+.ux-main p {
+  font-family: Inria Serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000;
+}
+.ux-main span {
+  font-size: 16px;
+}
+.ux-main em {
+  color: #d4af37;
+  font-style: normal;
+}
+
+.main-crds {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.infor-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+}
+.infor-img p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1c1917;
+}
+
+.bcnt-hed h3 {
+  font-family: Roboto Serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.42px;
+}
+.news-main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+section.newsletter-section {
+  padding: 50px 0;
+}
+
+.subscribe {
+  padding-bottom: 40px;
+}
+
+.subscribe h1 {
+  font-family: Roboto Serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 46.84px;
+  color: #00aab0;
+}
+.card-main {
+  display: flex;
+  gap: 20px;
+  padding: 25px 0px;
+}
+.padding-pack {
+  padding: 24px;
+}
+.bcntant {
+  width: 360px;
+  position: relative;
+}
+.fixd {
+  position: absolute;
+  background-color: #FFFFFF80;
+  top: 12px;
+  left: 12px;
+  width: 50px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.fixd p{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1C1917;
+}
+.btn-pock {
+  padding-top: 20px;
+}
+.btnpok p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.btnpok {
+  background-color: #d4af37;
+  height: 44px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnpok:hover {
+  background-color: #d4af10;
+  cursor: pointer;
+}
+.night p {
+  color: #d4af37;
+}
+
+/* ============================================= testimiso =========================================== */
+
+.testimon-section {
+  padding: 50px 0px;
+}
+.testi-star ul {
+  display: flex;
+  gap: 4px;
+}
+.star-para p {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  padding: 15px 0px;
+  color: #1c1917;
+}
+.star-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0px;
+}
+.starbotmp h3 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #1c1917;
+}
+.testion {
+  width: 310px;
+  border-radius: 5px;
+}
+.testi-star {
+  padding: 5px 0px;
+}
+.testi-card {
+  padding: 20px;
+}
+.testion-flax {
+  display: flex;
+  gap: 20px;
+}
+
+/* ================================= Bannar ================================ */
+
+.banner-section {
+  background-image: url("../images/bannerimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+.bannbckcol {
+  position: absolute;
+  top: 0px;
+  left: 1px;
+}
+.catdmain-taison {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.bannar-left {
+  width: 660px;
+}
+.bannar-left h1 {
+  font-family: Ramadhan Mubarok;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+.bannar-left em {
+  color: #d4af37;
+  font-style: normal;
+}
+.bannar-left p {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.8px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.banner-right {
+  width: 393px;
+  padding-top: 10%;
+}
+
+.right-para p {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: right;
+  padding-bottom: 24px;
+}
+.btnright {
+  background-color: #d4af37;
+  width: 250px;
+  height: 44px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnright p {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+.btnright:hover {
+  background-color: #d4af10;
+  cursor: pointer;
+}
+.btn-right {
+  display: flex;
+  justify-content: end;
+}
+.banner-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 37%;
+}
+
+/* ==========================scart=========================== */
+
+section.makkah-section {
+  background-color: #1c1917;
+  padding-top: 30px;
+}
+.jry-text p {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #d4af37;
+}
+.jry-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: #d4af371f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.journey-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.jry-second p {
+  font-family: Raleway;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #fafaf9;
+  width: 637px;
+  padding: 25px 0px;
+}
+.makkah-path p {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+.makkah-path {
+  width: 313px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #d4af37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.makkah-main {
+  display: flex;
+  align-items: center;
+}
+
+/* ============================footer========================== */
+
+.footer-section {
+  background-image: url(../images/footerimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+.footer-rightmain {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-svg {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.treesvg {
+  padding: 20px 0px;
+  display: flex;
+  gap: 25px;
+}
+.footer-input {
+  position: relative;
+  padding-top: 35px;
+}
+.footer-input .clck-btn {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+}
+.input-main input::placeholder {
+  color: #ffffff;
+  font-family: "Inter Tight";
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 63px;
+}
+.input-main input {
+  height: 60px;
+  width: 458px;
+  background-color: #000000;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  padding-left: 5px;
+}
+.input-main input:focus {
+  color: #ffffff;
+  font-family: "Inter Tight";
+  font-size: 15px;
+}
+.clck-btn {
+  background: #d4af37;
+  width: 60px;
+  height: 60px;
+  border-radius: 0px 8px 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section::before {
+  content: "";
+  position: absolute;
+  background: #1c1917;
+  inset: 0;
+  z-index: -1;
+}
+
+.footer-right h1 {
+  padding-bottom: 15px;
+}
+.footer-right p {
+  padding-bottom: 10px;
+}
+.footer-right h1,
+.right-cunt h1 {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.footer-right p,
+.right-cunt p {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #d4af37;
+}
+.svg-footer span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d4af371f;
+  border-radius: 50%;
+}
+
+.svg-footer {
+  display: flex;
+  align-items: center;
+}
+.footer-haji p {
+  padding: 20px 0px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* ================chack=================== */
+
+.check{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+}
+.checkpara p{
+  font-family: Raleway;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #1C1917;
+}
+
+/* ============================btn============================== */
+
+
+section.packages-details {
+  padding-top: 150px;
+}
+.pkg-details-text p {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1C1917;
+}
+.fixed-pkg a {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1C1917;
+}
+.flex-pkg a {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1C1917;
+}
+.pkg-details-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fix-packages-main {
+  height: 47px;
+  display: flex;
+  align-items: center;
+   gap: 30px; 
+  background-color: #F5F5F4;
+  width: 368px;
+  justify-content: center;
+  border-radius: 47px;
+}
+.fixed-pkg a {
+  width: 180px;
+  height: 39px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+}
+.fixed-pkg:hover a  {
+  background-color: #D4AF37;
+  color: #ffffff;
+  cursor: pointer;
+}
+.flex-pkg a {
+  width: 180px;
+  height: 39px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+.flex-pkg:hover a  {
+  background-color: #D4AF37;
+  color: #ffffff;
+  cursor: pointer;
+}
+.pkg-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 60px;
+}
+.pkg-extra {
+  padding-top: 25px;
+}
+/* section.packages-details {
+  padding-top: 140px;
+} */
