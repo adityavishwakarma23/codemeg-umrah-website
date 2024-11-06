@@ -1,5 +1,5 @@
 import React from 'react'
-import { starimg1 } from "../../../assets/images";
+import { Starimg1,  } from "../../../assets/images";
 
 
 const Testimonal = () => {
@@ -69,7 +69,7 @@ const Testimonal = () => {
               </div>
               <div className="star-img">
                 <div className="starbottm">
-                  <img src={starimg1} alt="" />
+                  <img src={Starimg1} alt="" />
                 </div>
                 <div className="starbotmp">
                   <h3> Ahmad Al-mansour </h3>
@@ -134,7 +134,7 @@ const Testimonal = () => {
               </div>
               <div className="star-img">
                 <div className="starbottm">
-                  <img src={starimg1} alt="" />
+                  <img src={Starimg1} alt="" />
                 </div>
                 <div className="starbotmp">
                   <h3> Ahmad Al-mansour </h3>
@@ -199,7 +199,7 @@ const Testimonal = () => {
               </div>
               <div className="star-img">
                 <div className="starbottm">
-                  <img src={starimg1} alt="" />
+                  <img src={Starimg1} alt="" />
                 </div>
                 <div className="starbotmp">
                   <h3> Ahmad Al-mansour </h3>

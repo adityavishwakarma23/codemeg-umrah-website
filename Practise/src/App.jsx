@@ -1,7 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { useRoutes } from "react-router-dom";
-import {    LoginPage, Homepage, PackageMainPage} from "./RoutesMain";
+import {    LoginPage, Homepage, PackageMainPage,  PackageDetailPAge} from "./RoutesMain";
 import { Footer, Header } from "./components/common";
+import Packagenthost from "./components/Packdetail/subcomponent/Packagenthost";
+import { PackagenthostPage } from "./components/Packdetail/subcomponent";
 
 const App=()=> {
   const routes = useRoutes([
@@ -17,6 +19,8 @@ const App=()=> {
           <Routes>
             <Route path="/" index element={<Homepage />} />
             <Route path="/packagemain" index element={<PackageMainPage />} />
+            <Route path="/packagedatal" index element={< PackageDetailPAge />} />
+          
           </Routes>
         </main>
         <Footer />

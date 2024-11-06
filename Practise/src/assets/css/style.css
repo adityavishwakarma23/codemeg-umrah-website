@@ -490,7 +490,7 @@ img {
   border-radius: 4px 4px 0px 0px;
 }
 .hdr-main {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   width: 100%;
   padding: 20px 0px;
@@ -1170,3 +1170,752 @@ section.packages-details {
 /* section.packages-details {
   padding-top: 140px;
 } */
+
+/* =================/aand=========== */
+
+.add-checkbox  input[type="checkbox"] {
+  width: 18px;
+  margin: 0;
+  padding: 0;
+}
+.add-checkbox {
+  padding-top: 20px;
+}
+.add-checkbox label {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1C1917;
+}
+.custom-check {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-check input[type="checkbox"] {
+  display: none; /* Hide default checkbox */
+}
+
+.custom-check .checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007AFF; /* Blue border */
+  border-radius: 4px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.custom-check .checkbox::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  width: 6px;
+  height: 12px;
+  border: solid  #007AFF; /* Blue tick color */
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg) translate(-50%, -50%);
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.2s ease-in-out;
+}
+
+.custom-check input[type="checkbox"]:checked + .checkbox::before {
+  opacity: 1; /* Show tick when checked */
+}
+.custom-check .checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007AFF; /* Blue border */
+  border-radius: 4px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.custom-check .checkbox::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  width: 6px;
+  height: 12px;
+  border: solid  #007AFF; /* Blue tick color */
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg) translate(-50%, -50%);
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+
+/* ================================3 page=========================== */
+
+
+.review-main-text{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.revi-right p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #007Aff;
+  border-bottom: 1px solid #007Aff;
+}
+.revi-left p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1C1917;
+}
+.scroll-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background-color: #F5F5F4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-main-text-icon-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.review-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review-all-stars-main ul {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.review-by-agent p {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #1C1917;
+  width: 275px;
+  padding-top: 10px;
+}
+.review-agent-profile-main p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #1C1917;
+}
+.review-agent-profile-main {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 15px;
+}
+.review-modify {
+  width: 323px;
+  border-radius: 4px;
+  background-color: #FAFAF9;
+  margin-top: 20px;
+  padding: 20px;
+}
+.all-cards-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review-ctnt-main {
+  padding: 50px 0px;
+} 
+/* ===============================================inner flax================================== */
+
+
+
+.note-fled p{
+  font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0.015em;
+text-align: left;
+color: #1C1917;
+}
+.note-fled {
+  background-color: #FFFFFF80;
+  position: absolute;
+  margin: 15px;
+  width: 60px;
+  height: 26px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.main-fixed{
+  position: relative;
+  left: 10px;
+}
+.inner-fixed{
+  width: 520px;
+}
+.section-flexed{
+  padding-top: 10%;
+}
+.main-khofl {
+  display: flex;
+  align-items: center;
+  gap: 105px;
+  padding: 20px 0px;
+}
+.kofl-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.kofl-left p{
+font-family: Raleway;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.015em;
+text-align: left;
+color: #A8A29E;
+}
+.kofl-left h1{
+font-family: Raleway;
+font-size: 16px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #1C1917;
+}
+.right-main {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.right-main p{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0.015em;
+text-align: left;
+color: #007AFF;
+}
+
+/* ============note============ */
+
+
+.note-main {
+  padding: 25px 0;
+  background-color: #FAFAF9;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.para-main {
+  display: flex;
+  gap: 20px;
+}
+.note-cunt h2{
+  font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.noteh1 h1{
+  font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+padding-left: 15px;
+}
+.note-para{
+  padding-left: 25px;
+}
+.para-main{
+  padding-top: 20px;
+}
+
+/* ========================================innner-flexd2======================================== */
+
+.fixed-main{
+  display: flex;
+  gap: 50px;
+}
+.dusra{
+  padding-top: 50px;
+}
+.night-exe {
+  display: flex;
+  /* align-items: flex-end; */
+  gap: 50px;
+}
+.day-top {
+  display: flex;
+  gap: 5px;
+}
+.day-top p{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #000;
+}
+.dat{
+  padding-top: 3px;
+}
+.day-main {
+  display: flex;
+  padding: 11px 0px;
+  background-color: #FAFAF9;
+  border-radius: 80px;
+  margin: 20px 0px;
+}
+.main-day {
+  padding: 10px 35px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto;
+}
+.main-day:hover{
+  background-color: #000000;
+  border-radius: 80px;
+    
+  .day-top p{
+    color: #ffffff;
+   
+  }
+}
+.arraval h1 {
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.arrival-svg {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.arrival-svg p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000;
+  
+}
+.arraval {
+  padding: 50px 0;
+}
+.hilton-main {
+  display: flex;
+    align-items: center;
+    border: 1px solid #E7E5E4;
+    width: 550px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    gap: 50px;
+    position: relative;
+}
+.hilton-main:hover {
+  border: 1px solid #57534E;
+  cursor: pointer;
+  .makk-hilton span svg path {
+    fill: #000000;
+  }
+}
+
+.hilton-main.dusra {
+  margin-top: 20px;
+}
+
+.hilton-makk {
+  background-color: #f5f5f4;
+  width: 120px;
+  border-radius: 4px;
+}
+.hilton-makk p {
+  padding-left: 10px;
+  letter-spacing: 0.02em;
+}
+.makk-hilton {
+  display: flex;
+  padding-left: 18px;
+}
+.makk-hilton {
+  display: flex;
+  padding: 10px 0;
+}
+.makk-hilton em{
+  color: #FF3B30;
+  font-style: normal;
+}
+
+.makk-hilton p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000;
+  padding-left: 5px;
+}
+.prie-doulb {
+  display: flex;
+  align-items: center;
+}
+/* App.css */
+/* Initially hide the checkbox */
+.checked {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+/* When hovering on hilton-main, show the checkbox */
+.hilton-main:hover .checked {
+  display: block;
+}
+
+/* Styling when checkbox is checked */
+.checked .custom-check input[type="checkbox"]:checked + .checkbox {
+  background-color: #D4AF37;
+}
+
+/* ========================price================================= */
+.price{
+  padding-top: 15px;
+}
+
+
+.prices-main {
+  padding: 50px 0px;
+}
+
+.price-hed h1 {
+  font-family: Raleway;
+  font-size: 20px;
+  /* font-weight: 700; */
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  /* text-align: left; */
+}
+.price-cunt {
+  padding: 30px 0;
+}
+.price-cunt{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.pricedon-main {
+  border: 1px solid #E7E5E4;
+  width: 175px;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+.fix2{
+  width: 312px;
+}
+
+/* =================line================= */
+
+.cntr-uma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px; 
+}
+
+.line-uma {
+  height: 1px;
+  width: 39.5%;
+  background-color: #676767;
+  display: block;
+  background: linear-gradient(90deg, #57534E 0%, rgba(255, 255, 255, 0) 100%);
+  transform: rotate(180deg);
+}
+.line-2 {
+  transform: rotate(0deg);
+  height: 1.4px;
+}
+.or-uma {
+  line-height: 16px;
+}
+.line {
+  height: 1px;
+  width: 39.5%;
+  background-color: #676767;
+  display: block;
+  background: linear-gradient(90deg, #57534E 0%, rgba(255, 255, 255, 0) 100%);
+}
+/* =======================================agent==================================== */
+
+
+
+.agent-hed h1 {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #D4AF37;
+}
+.day-p p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  background: #D4AF371F;
+  width: 48px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  color: #D4AF37;
+}
+.p-day {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #57534E;
+}
+.day-agent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.agent-para p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #000;
+ 
+}
+.agent-cuntant {
+  width: 100%;
+  max-width: 920px;
+  padding: 20px 0px 0px 20px;
+}
+
+/* ===========================rant================================ */
+
+.rat-cunt p {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #57534E;
+}
+.rat-cunt h3{
+  font-family: Raleway;
+font-size: 16px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #000;
+padding-top: 6px;
+}
+.rat-svg {
+  display: flex;
+  gap: 10px;
+  padding-top: 24px;
+}
+.rat-svg p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #007AFF;
+}
+.leftflex-main {
+  display: flex;
+  gap: 10px;
+}
+.rat-cunt {
+  padding-top: 40px;
+}
+.ratphone{
+  padding-top: 6px;
+}
+.ratstar {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+.ratmain {
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+  padding-top: 5px;
+  padding-top: 2px;
+  display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ratstar h1 {
+  padding-left: 5px;
+}
+.rightbox-main {
+  background-color: #F5F5F4;
+  width: 181px;
+  height: 60px;
+  border-radius: 8px;
+}
+.rightmain{
+  display: flex;
+  gap: 5px;
+}
+.numrat h1{
+  padding-left: 5px;
+}
+.rnumrat {
+  padding-left: 81px;
+}
+.rattotal {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 50px;
+  padding-top: 3px;
+}
+.rightbox-para {
+  width: 570px;
+  padding-top: 24px;
+}
+.rightbox-para p{
+  font-family: Raleway;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.015em;
+text-align: left;
+color: #000;
+}
+.rating-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+/* ============================fiximg========================== */
+
+
+.fixmain-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fiximg-hed {
+  padding: 50px 0px;
+}
+.fixmain-card {
+  padding-top: 30px;
+}
+.main-fiximg {
+  position: relative;
+}
+
+.fixmain-cunt {
+  position: absolute;
+  background-color:  #FFFFFF40;
+}
+.fixmain-cunt p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #ffffff;
+}
+.fixmain-cunt {
+  position: absolute;
+  background-color: #FFFFFF40;
+  width: 75px;
+  height: 25px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 30px;
+}
+.fixmain-cutbut h1 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+.fixmain-cutbut em{
+  font-style: normal;
+}
+.fixmain-cutbut p {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 5px;
+}
+.fixmain-cutbut {
+  position: absolute;
+  bottom: 10px;
+  margin: 10px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import {makkahimg} from '../../../assets/images'
+import {Makkahimg, } from '../../../assets/images'
 
 const Sacred = () => {
   return (
@@ -33,7 +33,7 @@ const Sacred = () => {
                 </div>
               </div>
               <div className="all-jry-img">
-              <img src={makkahimg} alt="" />
+              <img src={Makkahimg} alt="" />
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 // import '../../../assets/css/style.css'
-import { bannerbackb, bannerbacki } from "../../../assets/images";
+// import { bannerbackb, bannerbacki } from "../../../assets/images";
 
 const Banner = () => {
   return (
